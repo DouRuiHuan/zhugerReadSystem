@@ -1,0 +1,157 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+@import './icon.css';
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  // color:#999;
+}
+html,body{
+  color:#333;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+p{padding:0;margin:0}
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+ul,li{list-style: none;padding:0;margin:0}
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+.app-main {
+  min-height: 100%
+}
+
+.app-container {
+  padding: 20px;
+}
+.search_box{
+  width:97%;
+  background:#fff;
+  border-radius:5px;
+  padding:12px 0px 0px 10px;
+  margin:0 0 20px 18px;
+  box-shadow: 0 0 20px #ccc;
+}
+.table-page{
+  width:97%;
+  background:#fff;
+  border-radius:5px;
+  margin:0 0 20px 18px;
+  box-shadow: 0 0 20px #ccc;
+}
+.el-form--inline .el-form-item{
+  width:100%;
+  // margin-bottom:10px;
+}
+.el-form-item__label{
+  font-size: 13px;
+  color:#999;
+}
+.el-form-item__error{
+  padding-top:0px;
+}
+.el-form-item{
+  margin-bottom:13px;
+}
+.el-form-item__content{
+  font-size:13px;
+}
+.add_img{
+  font-size:30px;
+  color:#ccc;
+}
+.textarea{
+  margin:3px 0;
+  width:600px;
+  font-size:13px;
+}
+.btn{
+  padding: 20px 0 20px 150px;
+  margin-top:40px;
+  border-top:2px dashed #efefef;
+}
+.block{
+  padding:30px 0;
+  text-align: center;
+}
+.input{
+  vertical-align: middle;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  border: 1px solid #efefef;
+  outline: none;
+  font-size: 12px;
+}
+.batch{
+  margin:20px;
+}
+.el-pagination .el-select .el-input .el-input__inner{
+  height:24px;
+}
+.el-input--small .el-input__inner{
+  -moz-appearance:textfield;
+}
+.el-input--small .el-input__inner::-webkit-inner-spin-button{
+  -webkit-appearance: none !important;
+}
+.el-input--small .el-input__inner::-webkit-outer-spin-button{
+  -webkit-appearance: none !important;
+}
+
